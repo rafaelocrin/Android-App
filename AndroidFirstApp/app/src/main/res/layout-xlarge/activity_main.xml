@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="274dp"
+        android:layout_marginTop="101dp"
         android:id="@+id/textView2"
         tools:text="@string/welcome_text"
         android:textSize="36sp"
@@ -32,9 +32,9 @@
         tools:text="@string/enter_text"
         android:visibility="visible"
         android:textColor="@android:color/background_light"
-        android:background="@android:color/holo_blue_light"
-        android:textSize="30sp"
-        android:layout_below="@+id/textView2"
+        android:background="@drawable/button_bg_stroke"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="315dp" />
+        android:layout_marginBottom="148dp" />
 </RelativeLayout>

@@ -19,27 +19,21 @@
         tools:text="@string/enter_text"
         android:visibility="visible"
         android:textColor="@android:color/background_light"
-        android:background="@android:color/holo_blue_light"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="224dp"
-        android:layout_marginEnd="224dp"
-        android:layout_marginBottom="93dp" />
+        android:background="@drawable/button_bg_stroke"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
         tools:text="@string/welcome_text"
-        android:textSize="24sp"
+        android:textSize="40sp"
         android:textStyle="normal|bold"
         android:textColor="@android:color/background_light"
         android:text="@string/welcome_text"
-        android:layout_marginBottom="53dp"
-        android:layout_above="@+id/button4"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="206dp"
-        android:layout_marginEnd="206dp" />
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
