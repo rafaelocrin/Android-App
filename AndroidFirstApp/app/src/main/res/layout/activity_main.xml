@@ -12,30 +12,31 @@
     android:background="@drawable/marcianitoandroid"
     tools:context="com.zocrosfera.androidfirstapp.MainActivity">
 
-    <Button
-        android:text="@string/enter_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        tools:text="@string/enter_text"
-        android:layout_marginTop="63dp"
-        android:visibility="visible"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:textColor="@android:color/background_light"
-        android:background="@android:color/holo_blue_light" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="49dp"
         android:id="@+id/textView"
         tools:text="@string/welcome_text"
-        android:textSize="24sp"
+        android:textSize="40sp"
         android:textStyle="normal|bold"
         android:textColor="@android:color/background_light"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="@string/welcome_text" />
+
+    <Button
+        android:text="@string/enter_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        tools:text="@string/enter_text"
+        android:layout_marginTop="141dp"
+        android:visibility="visible"
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/button_bg_stroke"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp" />
 
 </RelativeLayout>

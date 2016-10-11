@@ -25,6 +25,20 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="146dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        tools:text="@string/welcome_text"
+        android:textSize="60sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_light"
+        android:text="@string/welcome_text"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
     <Button
         android:text="@string/enter_text"
         android:layout_width="wrap_content"
@@ -33,9 +47,9 @@
         tools:text="@string/enter_text"
         android:visibility="visible"
         android:textColor="@android:color/background_light"
-        android:background="@android:color/holo_blue_light"
-        android:layout_marginBottom="173dp"
-        android:textSize="48sp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:background="@drawable/button_bg_stroke"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
 </RelativeLayout>

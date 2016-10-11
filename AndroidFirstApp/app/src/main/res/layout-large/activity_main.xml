@@ -32,9 +32,9 @@
         tools:text="@string/enter_text"
         android:visibility="visible"
         android:textColor="@android:color/background_light"
-        android:background="@android:color/holo_blue_light"
-        android:layout_marginBottom="350dp"
-        android:textSize="30sp"
+        android:background="@drawable/button_bg_stroke"
+        android:layout_marginBottom="152dp"
+        android:textSize="18sp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
